@@ -1,0 +1,74 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+*::before *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    font-style: Roboto, sans-serif;
+}
+
+main {
+    height: 600px;
+    width: 1110px;
+    background-color: rgb(201, 127, 57);
+    display: grid;
+    place-items: center;
+}
+
+.main-div {
+    height: 500px;
+    width: 400px;
+    background-color: rgb(192, 109, 31);
+    border: 2px solid white;
+    box-shadow: -2px 8px 6px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.sub-div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .5rem;
+    align-items: center;
+    
+}
+.counter {
+    color: white;
+    font-size: 37px;
+}
+
+.num {
+    font-size: 120px;
+    color: rgb(15, 131, 0);
+    font-weight: 700;
+}
+
+button {
+    background-color: indigo;
+    padding: .2rem;
+    color: white;
+    font-size: 11px;
+}
+
+.bigbutton {
+    width: 95px;
+    height: 25px;
+}
+
+.smallbutton {
+    width: 85px;
+    height: 22px;
+}
